@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Rosy G Photography and Artwork</title>
+  
+
+  
+  
+
+  
+  <link rel="stylesheet" href="slideshow.css" type="text/css"></head><body>
+<ul>
+
+</ul>
+
+<div style="text-align: left;">
+<dl>
+</dl>
+<br>
+<table style="text-align: left; width: 1113px; height: 123px; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;"><br>
+      <div style="text-align: left;"><a href="index.htm"><img style="border: 0px solid ; width: 240px; height: 95px;" src="Fotos%20ITGS/Logo/logo_rosy.jpg" alt="RosyGLogo"></a></div>
+      </td>
+      <td style="vertical-align: top; text-align: center; font-family: Century Gothic; color: black;"><br>
+      <br>
+      <br>
+      <a href="social.htm"; class=hola>Social</a><br>
+      </td>
+      <td style="vertical-align: top; text-align: center; font-family: Century Gothic; color: black;"><br>
+      <br>
+      <br>
+      <a class=bebe href="file:///Users/monmunoz/Desktop/Colegio/Tec/Quinto%20Semestre/ITGS/PROYECTO/Comercial.htm">Comercial</a><br>
+      </td>
+      <td style="vertical-align: top; text-align: center; font-family: Century Gothic; color: black;"><br>
+      <br>
+      <br>
+      <a class=hello href="proyectospersonales.htm">Proyectos Personales</a><br>
+      </td>
+      <td style="vertical-align: top; text-align: center; font-family: Century Gothic; color: black;"><br>
+      <br>
+      <br>
+      <a class=bye href="sobrelafotografa.htm">Sobre la fotógrafa</a><br>
+      </td>
+      <td style="vertical-align: top; text-align: center; font-family: Century Gothic; color: black;"><br>
+      <br>
+      <br>
+      <a class=nunca href="contacto.htm">Contacto</a><br>
+      </td>
+      
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<ul>
+
+<!--Slideshow code beings here -->
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+   <div class="numbertext">1 / 6</div>
+  <img src="Fotos%20ITGS/Pagina%20principal/DSC_2967.jpg" style="width: 100%;"> </div>
+  <div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="Fotos%20ITGS/Pagina%20principal/DSC_3296.jpg" style="width: 100%;"> </div>
+  <div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="Fotos%20ITGS/Pagina%20principal/DSC_3339-2.jpg" style="width: 100%;"> </div>
+  <div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="Fotos%20ITGS/Pagina%20principal/DSC_4740.jpg" style="width: 100%;"> </div>
+  <div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="Fotos%20ITGS/Pagina%20principal/DSC_4828.jpg" style="width: 100%;"> </div>
+  <div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="Fotos%20ITGS/Pagina%20principal/DSC_4880.jpg" style="width: 100%;"> </div>
+  </div>
+  <br>
+  <div style="text-align: center;"> <span class="dot"></span> <span class="dot"></span> <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span> </div>
+
+  <!-- Slide show ends here -->
+
+  <!-- Javascript for slideshow begins -->
+  <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 4 seconds
+}
+    </script>
+<!-- Javascript for slideshow ends -->
+</ul>
+
+<div data-role="footer">
+<div style="text-align: center;"> <small><span style="font-family: Century Gothic;">Rosy G. Photography ©</span></small><br>
+</div>
+<h1 style="text-align: center;"><br>
+</h1>
+</div>
+
+</body></html>

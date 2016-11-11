@@ -1,0 +1,51 @@
+.hola {
+  text-decoration: none; 
+  color: black;
+  -webkit-transition: 0.256s;
+}
+
+.hola:hover {
+  transition: 0.256s;
+  color: #BDB7B3;
+}
+
+.bebe {
+  text-decoration: none; 
+  color: black;
+  -webkit-transition: 0.256s;
+}
+
+.bebe:hover {
+  transition: 0.256s;
+  color: #BDB7B3;
+}
+.hello {
+  text-decoration: none; 
+  color: black;
+  -webkit-transition: 0.256s;
+}
+
+.hello:hover {
+  transition: 0.256s;
+  color: #BDB7B3;
+}
+.bye {
+  text-decoration: none; 
+  color: black;
+  -webkit-transition: 0.256s;
+}
+
+.bye:hover {
+  transition: 0.256s;
+  color: #BDB7B3;
+}
+.nunca {
+  text-decoration: none; 
+  color: black;
+  -webkit-transition: 0.256s;
+}
+
+.nunca:hover {
+  transition: 0.256s;
+  color: #BDB7B3;
+}
